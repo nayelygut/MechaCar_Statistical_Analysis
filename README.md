@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict MPG
 
-![]("linear_regression.png")
+![](linear_regression.png)
 
 Based on the values, the vehicle_lenght, ground_clearance, and AWD are not equal to zero and thus are non-random in their variance.
 
