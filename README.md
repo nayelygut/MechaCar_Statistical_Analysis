@@ -8,15 +8,13 @@ Based on the values, the vehicle_lenght, ground_clearance, and AWD are not equal
 
 ![](Images/summary_linearregression.png)
 
-Is the slope of the linear model considered to be zero? Why or why not?
 P-value of our linear regression is 5.53e-11, which is smaller than the significance level of 0.05 assumed here.
 
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-R-squared value is 0.71, roughly 71% of the variability is explaine by this model. In addition, our p-value is smaller than our assumed number, so there is evidence to say that our slope is not zero. 
+I was trying to use the linear model to predict mpf of MechaCar prototypes. R-squared value is 0.71, roughly 71% of the variability is explaine by this model. In addition, our p-value is smaller than our assumed number, so there is evidence to say that our slope is not zero. 
 
 ## Summary Statistics on Suspension Coils
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
 
 ![](Images/total_summary.png)
 The suspension coils variance is met for the total manufacturing lots. 
